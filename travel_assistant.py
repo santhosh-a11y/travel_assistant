@@ -5,7 +5,7 @@ from google.genai import types
 
 # Simple Page Setup
 st.set_page_config(page_title="AI Travel Helper", page_icon="🌐")
-st.title("🌐 Simple AI Travel Guide")
+st.title("🌐 AI Travel Guide")
 st.caption("A helpful assistant with live Google Search to plan your trips.")
 
 # Connect to Gemini (This will read your key from Streamlit secrets)
