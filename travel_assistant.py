@@ -32,7 +32,7 @@ for msg in st.session_state.messages:
         st.write(msg["content"])
 
 # User input field
-if user_prompt := st.chat_input("Where are we going next? (e.g., Tokyo weekend plan)"):
+if user_prompt := st.chat_input("Where are we going next?"):
     st.session_state.messages.append({"role": "user", "content": user_prompt})
     with st.chat_message("user"):
         st.write(user_prompt)
